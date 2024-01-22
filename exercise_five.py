@@ -18,7 +18,7 @@ def check_first_and_last_number(list_of_numbers):
     else:
         return False
 
-
+print("SAMPLE")
 #printing result for true
 print("The given numbers are: ", first_given_numbers)
 print("The given list is: ", check_first_and_last_number(first_given_numbers))
@@ -26,5 +26,20 @@ print("The given list is: ", check_first_and_last_number(first_given_numbers))
 # printing result for false
 print("The given numbers are: ", second__given_numbers)
 print("The given list is: ", check_first_and_last_number(second__given_numbers))
+
+print(" ")
+# ask user input
+print("Please Input Five Numbers:", )
+num1=input("1st number: ")
+num2=input("2nd number: ")
+num3=input("3rd number: ")
+num4=input("4th number: ")
+num5=input("5th number: ")
+
+input_numbers = (num1,num2,num3,num4,num5)
+
+print("The given numbers are: ", input_numbers)
+print("The given list is: ", check_first_and_last_number(input_numbers))
+
 
 
