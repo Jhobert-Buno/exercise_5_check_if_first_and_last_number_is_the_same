@@ -18,5 +18,13 @@ def check_first_and_last_number(list_of_numbers):
     else:
         return False
 
+
 #printing result for true
+print("The given numbers are: ", first_given_numbers)
+print("The given list is: ", check_first_and_last_number(first_given_numbers))
+
 # printing result for false
+print("The given numbers are: ", second__given_numbers)
+print("The given list is: ", check_first_and_last_number(second__given_numbers))
+
+
