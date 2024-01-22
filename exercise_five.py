@@ -3,6 +3,20 @@
 
 #pseudocode
 #given numbers
+first_given_numbers = [10, 20, 30, 40, 10]
+
+second__given_numbers = [75, 65, 35, 75, 30]
+
 #creating functions
+def check_first_and_last_number(list_of_numbers):
+    first_number = list_of_numbers[0]
+    last_number = list_of_numbers[-1]
+
+    if first_number == last_number:
+        return True
+        
+    else:
+        return False
+
 #printing result for true
 # printing result for false
